@@ -15,41 +15,12 @@
                 <h1 class="text-white">Sales APP</h1>
             </div>
         </nav>
-        <main class="mt-4"></main>
-            <div class="row mb-2 text-center">
-                <div class="col">
-                    <div class="card mb-3 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Investments</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>FTI</li>
-                                <li>RETIREMENT</li>
-                                <li>GBA</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Start</button>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col">
-                    <div class="card mb-3 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Mortgages</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>PURCHASE</li>
-                                <li>REFINANCE</li>
-                                <li class="text-white">.</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Start</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+        {% block content %}
+
+        
+        {% endblock%}
+        {% include 'footer.html' %}
     </div>
 </body>
 </html>
